@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.atlassian.crowd:embedded-crowd-api:2.10.5-j11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/crowd/embedded-crowd-api/2.10.5-j11/embedded-crowd-api-2.10.5-j11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/crowd/embedded-crowd-api/2.10.5-j11/embedded-crowd-api-2.10.5-j11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/crowd/embedded-crowd-api/2.10.5-j11/embedded-crowd-api-2.10.5-j11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,79 @@
+#disable_html_escaping()
+<html>
+<head>
+    <title>Create development issue</title>
+</head>
+
+<body class="aui-page-focused aui-page-focused-large">
+<header class="aui-page-header">
+    <div class="aui-page-header-inner">
+        <div class="aui-page-header-main">
+            <h1>$action.getText("create.dev.issue.operation.name.header"): $key</h1>
+        </div>
+    </div>
+</header>
+
+<form action="CreateDevIssueDetail.jspa?id=$id" class="aui top-label" id="edit-settings" method="post">
+    #if ($action.hasAnyErrors())
+        <div class="aui-message aui-message-error">
+            <ul>
+                #foreach ($error in $action.getErrorMessages())
+                    <li>$textutils.htmlEncode(${error})</li>
+                #end
+            </ul>
+        </div>
+    #else
+        <div class="form-body">
+            <table id="label">
+                <tbody>
+                <tr class="availableActionRow">
+
+                    <td style="max-width: 200px; width: 200px; word-wrap: break-word;">
+                        <label for="teamName">$action.getText('create.dev.issue.field.team')</label>
+                    </td>
+
+                    <td>
+                        <select class="select aui-ss-select" id="teamName" name="teamName">
+                            #foreach ($team in $teams)
+                                <option#if ($teamName && $team && $teamName == $team)
+                                        selected="selected"#end value="$team">
+                                    $textutils.htmlEncode($team)
+                                </option>
+                            #end
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr class="availableActionRow">
+
+                    <td style="max-width: 200px; width: 200px; word-wrap: break-word;">
+                        <label for="priorityType">$action.getText('create.dev.issue.field.priority')</label>
+                    </td>
+
+                    <td>
+                        <select class="select aui-ss-select" id="priorityType" name="priorityType">
+                            #foreach ($priority in $priorities)
+                                <option#if ($priorityType && $priority.getId() && $linkType == $priority.getId())
+                                        selected="selected"#end value="$!priority.getId()">
+                                    $textutils.htmlEncode($priority.getName())
+                                </option>
+                            #end
+                        </select>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    <div class="buttons-container form-footer">
+        <div class="buttons">
+            <input accesskey="s" class="aui-button" id="issue-create-submit" name="Create"
+                   title="Press Ctrl+Alt+s to submit this form" type="submit" value="Create">
+            <a accesskey="`" class="aui-button aui-button-link cancel" href="$req.contextPath/browse/$issueKey"
+               id="issue-create-cancel" title="Press Ctrl+Alt+` to cancel">Cancel</a>
+
+        </div>
+    #end
+</form>
+</body>
+</html>

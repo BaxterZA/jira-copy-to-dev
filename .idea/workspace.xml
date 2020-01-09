@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbb0db33-332f-4bb1-9517-98195a763e3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/za.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appodeal/dev_helper/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dev_helper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createDevIssueDetail.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appodeal/jira_plugin/BulkCloneIssueAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appodeal/jira_plugin/BulkCloneIssueOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appodeal/jira_plugin/BulkCloneIssuePluginListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appodeal/jira_plugin/SingleCloneIssueAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appodeal/dev_helper/CreateDevTaskAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/atlassian-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/atlassian-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jira_plugin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue/cloneIssue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue/cloneIssueConfirm.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue/cloneIssueError.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue/cloneIssueRightScreenConfirm.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue/cloneIssueRightScreenDetail.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bulk/includes/bulkoperation_leftpanel.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/singleCloneIssueDetail.vm" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PUtCj11j3mBSet2tZe73UDTmIK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3836292" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.appodeal.jira_plugin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssue" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/bulk/cloneIssues" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb0db33-332f-4bb1-9517-98195a763e3b" name="Default Changelist" comment="" />
+      <created>1559904109793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559904109793</updated>
+      <workItem from="1559904111014" duration="149000" />
+      <workItem from="1559904262007" duration="625000" />
+      <workItem from="1559904927068" duration="138000" />
+      <workItem from="1559905068243" duration="8337000" />
+      <workItem from="1560150767882" duration="10597000" />
+      <workItem from="1560243327261" duration="38198000" />
+      <workItem from="1560402613999" duration="15700000" />
+      <workItem from="1560493895180" duration="99000" />
+      <workItem from="1560929640196" duration="1653000" />
+      <workItem from="1560931810135" duration="20000" />
+      <workItem from="1561017912997" duration="2329000" />
+      <workItem from="1561972781632" duration="13183000" />
+      <workItem from="1565940379361" duration="3689000" />
+      <workItem from="1566219318407" duration="28000" />
+      <workItem from="1578555942250" duration="74000" />
+      <workItem from="1578556074068" duration="11837000" />
+    </task>
+    <task id="LOCAL-00001" summary="fail on start but can be run from web">
+      <created>1560341821216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560341821217</updated>
+    </task>
+    <task id="LOCAL-00002" summary="can walk to perform, use scan and component accessor (choose later)">
+      <created>1560346141846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560346141846</updated>
+    </task>
+    <task id="LOCAL-00003" summary="now is working">
+      <created>1560403856626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560403856626</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add default values (empty prefix, same type, clone link type)">
+      <created>1560407394641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560407394641</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix texts">
+      <created>1560407614939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560407614939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="check errors and fox texts">
+      <created>1560429272539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560429272539</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix html">
+      <created>1560429914433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560429914433</updated>
+    </task>
+    <task id="LOCAL-00008" summary="delete unused dependencies">
+      <created>1560433226495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560433226495</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change logging">
+      <created>1560435978194</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560435978195</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add ide files and .gitignore">
+      <created>1560931745857</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560931745858</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add single clone operation">
+      <created>1562051442056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562051442056</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rename section">
+      <created>1562051911304</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562051911304</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fail on start but can be run from web" />
+    <MESSAGE value="can walk to perform, use scan and component accessor (choose later)" />
+    <MESSAGE value="now is working" />
+    <MESSAGE value="add default values (empty prefix, same type, clone link type)" />
+    <MESSAGE value="fix texts" />
+    <MESSAGE value="check errors and fox texts" />
+    <MESSAGE value="fix html" />
+    <MESSAGE value="delete unused dependencies" />
+    <MESSAGE value="change logging" />
+    <MESSAGE value="add ide files and .gitignore" />
+    <MESSAGE value="add single clone operation" />
+    <MESSAGE value="rename section" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename section" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1578572615979">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="653" y="193" key="#com.intellij.ide.util.MemberChooser/0.23.1680.959@0.23.1680.959" timestamp="1578572615979" />
+    <state x="578" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578556514586">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="578" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.959@0.23.1680.959" timestamp="1578556514586" />
+    <state x="257" y="205" key="CommitChangelistDialog2" timestamp="1578576998561">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="257" y="205" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1578576998561" />
+    <state x="498" y="259" width="683" height="486" key="find.popup" timestamp="1578575035606">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="498" y="259" width="683" height="486" key="find.popup/0.23.1680.959@0.23.1680.959" timestamp="1578575035606" />
+    <state x="505" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1578571022493">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="505" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1578571022493" />
+  </component>
+</project>

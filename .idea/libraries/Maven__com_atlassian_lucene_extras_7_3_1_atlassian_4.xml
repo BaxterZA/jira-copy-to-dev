@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.atlassian:lucene-extras:7.3.1-atlassian-4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/lucene-extras/7.3.1-atlassian-4/lucene-extras-7.3.1-atlassian-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/lucene-extras/7.3.1-atlassian-4/lucene-extras-7.3.1-atlassian-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/lucene-extras/7.3.1-atlassian-4/lucene-extras-7.3.1-atlassian-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

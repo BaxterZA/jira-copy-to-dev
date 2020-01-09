@@ -1,0 +1,37 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
+    </plugin-info>
+
+    <!-- add our i18n resource -->
+    <resource type="i18n" name="i18n" location="dev_helper"/>
+
+    <web-section key="create-dev-issue-actions-section" location="opsbar-operations" weight="100"/>
+    
+    <web-item key="create-dev-issue" name="Create dev issue" section="create-dev-issue-actions-section" weight="100">
+        <label key="create.dev.issue.operation.name"/>
+        <tooltip key="create.dev.issue.plugin.issue.name"/>
+        <link linkId="create-dev-issue">
+            /secure/CreateDevIssueDetail!default.jspa?id=${issueId}
+        </link>
+        <condition class="com.atlassian.jira.plugin.webfragment.conditions.HasProjectPermissionCondition">
+            <param name="permission">create</param>
+        </condition>
+        <styleClass>trigger-dialog</styleClass>
+    </web-item>
+
+    <webwork1 key="reference-actions" name="Copy to Dev" class="java.lang.Object">
+        <actions>
+            <action name="com.appodeal.dev_helper.CreateDevTaskAction" alias="CreateDevIssueDetail">
+                <view name="input">templates/createDevIssueDetail.vm</view>
+                <view name="success">templates/createDevIssueDetail.vm</view>
+                <view name="error">templates/createDevIssueDetail.vm</view>
+            </action>
+        </actions>
+    </webwork1>
+
+</atlassian-plugin>
